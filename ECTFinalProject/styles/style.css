@@ -1,0 +1,590 @@
+﻿
+
+.inLineBlockOne{
+   display:inline-block;
+  margin-left:10%;
+   margin-top:14%;
+  }
+
+.inLineBlockTwo{
+   display:inline-block;
+   margin-left:20%;
+    margin-top:14%;
+}
+
+.homePageImage{
+    margin-left:30%;
+    margin-top:17%;
+    
+}
+
+.loginPanelLeft{
+    margin-top:100px;
+    position:absolute;
+}
+
+.round-button1 {
+    width: 130px;
+    height:130px;
+    border-radius: 50%;
+    margin-top:35%;
+    left:525px;
+    position:fixed;
+    font-family:Algerian;
+    font-size:23px;
+    background-color:gray;
+    border-width:5px;
+    border-color:darkgray;
+}
+
+.round-button1:hover{
+    border-width:10px;
+}
+
+.round-button1:focus{
+    outline:none;
+}
+
+
+.round-button2 {
+    width: 130px;
+    height:130px;
+    border-radius: 50%;
+    margin-top:35%;
+    left:810px;
+    position:fixed;
+     border-width:5px;
+    border-color:darkgray;
+    font-family:Algerian;
+    font-size:23px;
+    background-color:gray;
+}
+
+.round-button2:hover{
+    border-width:10px;
+}
+
+.round-button2:focus{
+    outline:none;
+}
+
+
+
+
+.round-button3 {
+    width: 130px;
+    height:130px;
+    border-radius:50%;
+    margin-top:35%;
+    left:1070px;
+    font-family:Algerian;
+    font-size:23px;
+    position:fixed;
+    background-color:gray;
+     border-width:5px;
+    border-color:darkgray;
+}
+
+.round-button3:hover{
+    border-width:10px;
+}
+
+.round-button3:focus{
+    outline:none;
+}
+
+.purchaseStatus{
+    margin-top:10%;
+    font-size:30px;
+    left:15%;
+    font-family:Algerian;
+    position:absolute;
+}
+
+.message{
+    margin-top:12%;
+    font-size:25px;
+    left:15%;
+    font-family:Algerian;
+    position:absolute;
+}
+
+
+
+
+
+.pagePanel{
+    top:20%;
+    width:100%;
+    position:absolute;
+}
+
+.orderHistory{
+    left:55%;
+    
+}
+
+
+.headerFont{
+    font-family:Algerian;
+    font-size:60px;
+   
+}
+
+.headerFontSmall{
+    font-family:'Bodoni MT';
+    font-size:50px;
+    font-style:italic;
+}
+
+.headerFontSmall2{
+     font-family:'Bodoni MT';
+    font-size:50px;
+    font-style:italic;
+    left:27%;
+    position:relative;
+    
+   
+}
+
+.userNameLbl{
+    font-family:Algerian;
+    font-size:20px;
+    left:260px;
+    top:390px;
+
+}
+
+
+.userNameTxt{
+    top:390px;
+    left:380px;
+
+}
+
+.passWordLbl{
+    font-family:Algerian;
+    font-size:20px;
+    left:260px;
+    top:430px;
+
+
+}
+
+p{
+    margin-top:20%;
+   
+}
+
+.p2{
+ 
+    top:70px;
+    margin-left:40%;
+    position:fixed;
+}
+
+.passWordTxt{
+    left:434px;
+    position:absolute;
+}
+
+.passwordError{
+    color:red;
+    font-size:15px;
+    left:608px;
+    position:absolute;
+}
+
+.loginBtn{
+    left:25%;
+    position:absolute;
+    width:75px;
+    background-color:lightgreen;
+    border-color:darkgreen;
+}
+
+.errorMsg{
+    top:420px;
+    left:24%;
+    color:red;
+    font-size:15px;
+    position:absolute;
+}
+
+
+.loginLabel{
+    font-size:16px;
+    font-family:Algerian;
+}
+
+
+
+
+
+
+
+.registerBtn{
+   
+    width:270px;
+    border-color:darkgreen;
+    background-color:lightgreen;
+    font-weight:bolder;
+    font-size:30px;
+   
+    
+}
+
+.errorLbl{
+    top:660px;
+    left:62%;
+    font-size:18px;
+    color:red;
+    position:absolute;
+}
+
+
+
+
+
+
+body{
+    background-color:lightgray;
+    padding-bottom:90px;
+}
+
+
+.cartPanel{
+ margin-top:20%;
+ margin-left:13%;
+ margin-right:16%;
+ border-bottom:groove;
+ border-bottom-color:black;
+
+
+ 
+
+   }
+
+.name{
+     font-family:Algerian;
+     font-size:xx-large;
+
+}
+
+
+
+
+
+
+
+.description{
+    display: block; 
+    height: 20px;
+    text-align: left;
+    color: darkslateblue;
+    font-weight: bold;
+    
+   
+}
+
+
+
+.cart{
+    margin-top:5%;
+    width:450px;
+    position:fixed;
+    margin-left:55%;
+    margin-right:20%;
+
+    
+
+}
+
+.cartlabel{
+    font-family:Algerian;
+    padding-left:40%;
+    font-size:30px;
+    
+}
+
+.cartName{
+    font-family:Algerian;
+    font-size:25px;
+    padding-left:0%;
+    margin-top:10%;
+}
+
+
+
+.cartPrice{
+     font-family:Algerian;
+    font-size:12px;
+    padding-left:15%;
+   
+}
+
+.deleteBtn{
+    margin-left:21%;
+    width:100px;
+    border-color:black;
+   background-color:red;
+   color:black;
+   font-size:17px;
+   font:bolder;
+    
+}
+
+.registerSuccess{
+    font-size:25px;
+    font-family:Calibri;
+    font-weight:200;
+   
+}
+
+.cartQ{
+   
+    font-family:Algerian;
+    font-size:12px;
+    padding-left:10%;
+}
+
+h1{
+    left:37%;
+    font-size:60px;
+    font-family:Algerian;
+    margin-top:100px;
+    position:absolute;
+}
+
+h2{
+    left:28%;
+    font-size:60px;
+    font-family:Algerian;
+    margin-top:100px;
+    position:absolute;
+}
+h3{
+    font-size:50px;
+    left:13%;
+    font-family:'Bodoni MT';
+    margin-top:90px;
+    position:absolute;
+}
+
+.h4{
+    left:37%;
+    font-size:60px;
+    font-family:Algerian;
+    margin-top:100px;
+    position:absolute;
+}
+
+
+
+
+
+
+.placeOrderBtn{
+     margin-left:15%;
+     font-size:20px;
+     padding-top:5px;
+     height:35px;
+
+}
+
+.totalPanel{
+    margin-left:28%;
+}
+
+.totalLbl{
+    font-family:Algerian;
+    font-size:35px;
+    font:bolder;
+    margin-left:125px;
+
+}
+
+.total{
+     font-family:Algerian;
+    font-size:35px;
+    font:bolder;
+   
+
+}
+
+.accountPanel{
+    margin-top:15%;
+}
+
+.accountFont{
+    font-size:30px;
+   font-family:'Bodoni MT';
+}
+
+.floatRight{
+    float:right;
+    margin-top:10%;
+}
+
+.floatLeft{
+    float:left;
+    margin-top:10%;
+}
+
+.updateInfoBtn{
+    background-color:lightgreen;
+    border-color:darkgreen;
+    left:18%;
+    position:fixed;
+    height:30px;
+    font-size:20px;
+    
+   
+}
+
+.confirmBtn{
+    
+    position:absolute;
+    width:75px;
+    background-color:lightgreen;
+    border-color:darkgreen;
+}
+
+
+.updatePanel{
+    margin-top:5%;
+    left:20%;
+    position:fixed;
+}
+
+.changePasswordBtn{
+    background-color:lightgreen;
+    border-color:darkgreen;
+    margin-top:50px;
+    position:fixed;
+    height:30px;
+    font-size:20px;
+
+}
+
+
+
+
+.cartBtn{
+    background-color:#232323;
+    border:none;
+    margin-top:16px;
+    color:grey;
+    font-size:14px;
+    left:12px;
+    position:absolute;
+    
+}
+
+.cartBtn:hover {
+       color: white;
+       
+}
+
+.cartBtn:focus{
+    outline:none;
+}
+
+.signOut{
+    background-color:#232323;
+    border:none;
+    margin-top:13px;
+    margin-left:930px;
+    color:gray;
+    font-size:14px;
+    position:absolute;
+}
+
+.signOut:hover {
+       color: white;
+       
+}
+
+.signOut:focus{
+    outline:none;
+}
+
+.headerUserName{
+    background-color:#232323;
+    border:none;
+    margin-top:14px;
+    margin-left:750px;
+    color:gray;
+    font-size:14px;
+    position:absolute;
+    width:100px;
+}
+
+.validate{
+     color:red;
+    font-size:15px;
+
+
+}
+
+.greenBtn{
+    background-color:lightgreen;
+    border-color:darkgreen;
+}
+
+.bulletList{
+    list-style-type:none;
+}
+
+.grid,th{
+    text-align:center;
+    background-color:lightgreen;
+    height:50px;
+    font-style:italic;
+    font-size:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:40px;
+   width:100%;
+
+   background-color:black;  
+}
+
+.footertextright{
+    margin-left:80%;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
